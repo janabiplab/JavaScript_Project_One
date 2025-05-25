@@ -1,0 +1,60 @@
+*{
+    background-color:#334d4d;
+}
+
+header>h1{
+    color:rgb(241, 174, 174);
+    font-weight: 600;
+    text-align: center;
+    font-size:35px;
+}
+
+#taskInput{
+    font-size: 25px;
+    background-color:rgb(235, 234, 226);
+    border:none;
+    padding:5px;
+    outline: none;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#addTaskBtn{
+    font-size:25px;
+    background-color:rgb(29, 149, 170);
+    border:none;
+    padding:5px;
+    outline: none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top: 10px;
+
+}
+
+#searchTaskInput{
+    margin-top:30px;
+    width:350px;
+    font-size:25px;
+    background-color: rgb(231, 226, 236);
+    border:none;
+    padding:5px;
+    outline: none;
+    
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #63d659;
+    margin: 5px;
+    color:yellow;
+    font-size:30px;
+}
